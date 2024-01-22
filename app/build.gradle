@@ -1,13 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
+    namespace = 'com.sxj.glGallery'
+    compileSdkVersion 23
     buildToolsVersion "24.0.2"
 
     defaultConfig {
         applicationId "com.hippo.glgallery.example"
-        minSdkVersion 14
-        targetSdkVersion 24
+        minSdkVersion 23
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
     }
